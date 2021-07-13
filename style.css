@@ -49,7 +49,7 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-    justify-content: space-evenly;
+	justify-content: space-evenly;
 }
 .player {
 	max-width: 300px;
@@ -63,4 +63,37 @@ body {
 .player-photo {
 	width: 100%;
 	border-radius: 10px;
+}
+/* ---------------highlight summary style sheet---------------- */
+.highlight-description {
+	padding-right: 35%;
+}
+.highlight-details {
+	margin: 10% 0;
+}
+.highlight-match-photo {
+	width: 100%;
+	padding: 0;
+}
+/* ------------------Footer Style------------------ */
+.logo-social-media-copyright-section {
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.logo {
+	width: 30%;
+}
+#social-media-icon {
+	color: #e02c6d;
+}
+.icon {
+	padding: 5px;
+}
+#copyright {
+	font-size: 18px;
+	font-weight: 400;
+	color: rgba(0, 0, 0, 0.598);
+	padding: 10px;
 }
