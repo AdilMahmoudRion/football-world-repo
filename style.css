@@ -43,16 +43,17 @@ body {
 }
 /* -----------------Player section style------------------- */
 .player-section {
-	margin: 55px 180px;
 }
 .player-list {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
-	justify-content: space-evenly;
+	justify-content: center;
+	margin: 55px 180px;
 }
 .player {
-	max-width: 280px;
+	width: 330px;
+	max-height: 474px;
 	margin: 15px;
 	padding: 15px;
 	background: #ffffff;
@@ -82,7 +83,7 @@ body {
 	align-items: center;
 }
 .logo {
-	width: 30%;
+	width: 25%;
 }
 #social-media-icon {
 	color: #e02c6d;
