@@ -93,7 +93,7 @@ body {
 	flex-basis: 25%;
 	flex-wrap: nowrap;
 	align-content: center;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 .club-logo {
@@ -150,6 +150,9 @@ body {
 		grid-template-columns: repeat(1, 1fr);
 		padding: 61px 15px;
 	}
+	.title {
+		font-size: 36px;
+	}
 	.banner-photo {
 		margin-top: 50px;
 		width: 100%;
@@ -159,13 +162,27 @@ body {
 		/* margin: 3.4375em 11.25em; */
 		margin: 47px 0.9765625vw;
 	}
+		.match {
+		width: 90%;
+		justify-content: space-around;
+		height: 180px;
+	}
+
 	.highlight-description {
 		padding-right: 0;
+	}
+	/* ------------previous match report------------- */
+	.previous-matchsummary {
+		flex-direction: column;
+		height: fit-content;
 	}
 }
 /* ---------------------------end------------------------------- */
 /* -------------------------Media Query fo tablet------------------------- */
 @media (max-width: 62em) {
+	.title {
+		font-size: 36px;
+	}
 	.player-section {
 		/* margin: 3.4375em 11.25em; */
 		margin: 47px 0.9765625vw;
@@ -173,6 +190,20 @@ body {
 	.player {
 		max-width: 300px;
 		height: 474px;
+	}
+	/* ------------previous match report------------- */
+	.previous-matchsummary {
+		flex-direction: column;
+		height: fit-content;
+	}
+	.match {
+		width: 90%;
+		justify-content: space-around;
+		height: 180px;
+	}
+	.summary-title {
+		width: 100%;
+		margin-left: 12%;
 	}
 }
 /* ------------------------------end------------------------------------ */
