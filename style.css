@@ -32,8 +32,7 @@ body {
 		rgba(215, 46, 107, 1) 48%,
 		rgba(217, 91, 100, 1) 80%
 	);
-box-shadow:  5px 5px 22px #211b75,
-             -5px -5px 22px #392fcb;
+	box-shadow: 5px 5px 22px #211b75, -5px -5px 22px #392fcb;
 }
 .banner {
 	display: grid;
@@ -43,8 +42,18 @@ box-shadow:  5px 5px 22px #211b75,
 .banner-title {
 	align-self: center;
 }
+.banner-images{
+	/* overflow: hidden; */
+}
 .banner-photo {
 	width: 100%;
+	transition: transform 4s ease-out;
+}
+.banner-photo:hover {
+	/* width: 90%; */
+	transform: rotate(10deg) scale(1.1);
+	transition: transform 4s ease-in-out 0.1s;
+	transform-origin: top bottom;
 }
 .arrow-forward {
 	margin-left: 8px;
@@ -131,10 +140,8 @@ box-shadow:  5px 5px 22px #211b75,
 	width: 100%;
 	padding: 0;
 }
-.highlight-link-button:hover{
-box-shadow:  7px 7px 14px #d9d9d9,
-             -7px -7px 14px #e7e7e7;
-
+.highlight-link-button:hover {
+	box-shadow: 7px 7px 14px #d9d9d9, -7px -7px 14px #e7e7e7;
 }
 /* ------------------Footer Style------------------ */
 .logo-social-media-copyright-section {
@@ -146,7 +153,7 @@ box-shadow:  7px 7px 14px #d9d9d9,
 .logo {
 	width: 25%;
 }
-.icon:hover{
+.icon:hover {
 	color: #e02c6d;
 	cursor: pointer;
 }
