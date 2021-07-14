@@ -101,21 +101,34 @@ body {
 }
 /* ---------------------Media query fo large phone---------------- */
 @media (max-width: 48em) {
-
-	
+	.banner {
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+		padding: 61px 15px;
+	}
+	.banner-photo {
+		margin-top: 50px;
+		width: 100%;
+		/* padding: 2%; */
+	}
+	.player-section {
+		/* margin: 3.4375em 11.25em; */
+		margin: 47px 0.9765625vw;
+	}
+	.highlight-description {
+		padding-right: 0;
+	}
 }
 /* ---------------------------end------------------------------- */
 /* -------------------------Media Query fo tablet------------------------- */
-@media (max-width: 62em){
-
-	
+@media (max-width: 62em) {
+	.player-section {
+		/* margin: 3.4375em 11.25em; */
+		margin: 47px 0.9765625vw;
+	}
+	.player {
+	max-width: 300px;
+	height: 474px;
 }
-/* ------------------------------end------------------------------------ */
-
-
-/* -------------------------Media Query fo Desktop----------------------- */
-@media (max-width: 62em){
-
-	
 }
 /* ------------------------------end------------------------------------ */
