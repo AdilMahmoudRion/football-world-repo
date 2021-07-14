@@ -21,7 +21,7 @@ body {
 .watching-live-button {
 	padding: 10px 24px;
 	text-decoration: none;
-	background: #E02C6D;
+	background: #e02c6d;
 	font-size: 16px;
 	font-weight: 500px;
 	color: #ffffff;
@@ -32,11 +32,12 @@ body {
 	padding: 82px 10%;
 }
 .banner-title {
-	margin-top: 20%;
+	/* margin-top: 20%; */
+	align-self: center;
 }
 .banner-photo {
 	width: 100%;
-	padding: 2%;
+	/* padding: 2%; */
 }
 .arrow-forward {
 	margin-left: 8px;
@@ -54,7 +55,7 @@ body {
 .player {
 	width: 320px;
 	max-height: 474px;
-	margin: 15px;
+	margin: 20px;
 	padding: 15px;
 	background: #ffffff;
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
