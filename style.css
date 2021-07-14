@@ -106,16 +106,16 @@ body {
 }
 /* -----------------highlight video privew section---------------- */
 .highlight-section {
-	padding: 4%;
+	padding: 5%;
 }
 .highlight-title {
 	color: black;
 }
 .highlight-description {
-	padding-right: 35%;
+	padding-right: 3%;
 }
 .highlight-details {
-	margin: 10% 0;
+	margin: 25px 0;
 }
 .highlight-match-photo {
 	width: 100%;
