@@ -20,10 +20,20 @@ body {
 .watching-live-button {
 	padding: 10px 24px;
 	text-decoration: none;
-	background: #e02c6d;
+	background-color: #e02c6d;
 	font-size: 16px;
 	font-weight: 500px;
 	color: #ffffff;
+}
+.watching-live-button:hover {
+	background: linear-gradient(
+		90deg,
+		rgba(215, 46, 107, 1) 11%,
+		rgba(215, 46, 107, 1) 48%,
+		rgba(217, 91, 100, 1) 80%
+	);
+box-shadow:  5px 5px 22px #211b75,
+             -5px -5px 22px #392fcb;
 }
 .banner {
 	display: grid;
@@ -52,7 +62,7 @@ body {
 }
 .player {
 	max-width: 320px;
-	height: 474px;
+	height: 450px;
 	margin: 15px;
 	padding: 15px;
 	background: #ffffff;
@@ -121,6 +131,11 @@ body {
 	width: 100%;
 	padding: 0;
 }
+.highlight-link-button:hover{
+box-shadow:  7px 7px 14px #d9d9d9,
+             -7px -7px 14px #e7e7e7;
+
+}
 /* ------------------Footer Style------------------ */
 .logo-social-media-copyright-section {
 	margin-top: 5%;
@@ -131,8 +146,9 @@ body {
 .logo {
 	width: 25%;
 }
-#social-media-icon {
+.icon:hover{
 	color: #e02c6d;
+	cursor: pointer;
 }
 .icon {
 	padding: 5px;
@@ -162,7 +178,7 @@ body {
 		/* margin: 3.4375em 11.25em; */
 		margin: 47px 0.9765625vw;
 	}
-		.match {
+	.match {
 		width: 90%;
 		justify-content: space-around;
 		height: 180px;
