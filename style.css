@@ -44,18 +44,19 @@ body {
 }
 /* -----------------Player section style------------------- */
 .player-section {
+	/* margin: 3.4375em 11.25em; */
+	margin: 2% 12%;
 }
 .player-list {
 	display: flex;
 	flex-wrap: wrap;
 	align-content: center;
 	justify-content: center;
-	margin: 55px 180px;
 }
 .player {
-	width: 320px;
-	max-height: 474px;
-	margin: 20px;
+	max-width: 320px;
+	height: 474px;
+	margin: 15px;
 	padding: 15px;
 	background: #ffffff;
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
@@ -98,3 +99,23 @@ body {
 	color: rgba(0, 0, 0, 0.598);
 	padding: 10px;
 }
+/* ---------------------Media query fo large phone---------------- */
+@media (max-width: 48em) {
+
+	
+}
+/* ---------------------------end------------------------------- */
+/* -------------------------Media Query fo tablet------------------------- */
+@media (max-width: 62em){
+
+	
+}
+/* ------------------------------end------------------------------------ */
+
+
+/* -------------------------Media Query fo Desktop----------------------- */
+@media (max-width: 62em){
+
+	
+}
+/* ------------------------------end------------------------------------ */
