@@ -21,7 +21,7 @@ body {
 .watching-live-button {
 	padding: 10px 24px;
 	text-decoration: none;
-	background: #080808;
+	background: #E02C6D;
 	font-size: 16px;
 	font-weight: 500px;
 	color: #ffffff;
@@ -52,7 +52,7 @@ body {
 	margin: 55px 180px;
 }
 .player {
-	width: 330px;
+	width: 320px;
 	max-height: 474px;
 	margin: 15px;
 	padding: 15px;
